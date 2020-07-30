@@ -8,23 +8,70 @@
 
 import UIKit
 
-class fourthViewController: UIViewController {
-
-    override func viewDidLoad() {
+class fourthViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate{
+    var imagePicker = UIImagePickerController()
+    
+    
+    
+    override func viewDidLoad() {imagePicker.delegate = self
+        
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    @IBOutlet weak var imageOne: UIImageView!
+    
+    @IBOutlet weak var imageTwo: UIImageView!
+    
+    @IBOutlet weak var imageThree: UIImageView!
+    
+    @IBOutlet weak var imageFour: UIImageView!
+    
+    
+    
+    private func imagePickerController(_picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey: Any]){
+       
+      if let selectedImage = info[UIImagePickerController.InfoKey.originalImage] as? UIImage {
+        imageOne.image = selectedImage
+      }
+      if let selectedImage = info[UIImagePickerController.InfoKey.originalImage] as? UIImage {
+        imageTwo.image = selectedImage
+      }
+      if let selectedImage = info[UIImagePickerController.InfoKey.originalImage] as? UIImage {
+        imageThree.image = selectedImage
+      }
+      if let selectedImage = info[UIImagePickerController.InfoKey.originalImage] as? UIImage {
+        imageFour.image = selectedImage
+      }
+       
+      imagePicker.dismiss(animated: true, completion: nil)
+       
+   
+    
+    
+    
+    
+    
     }
-    */
+
+    @IBAction func imageonetap(_ sender: UIButton) {
+        imagePicker.sourceType = .photoLibrary
+        present(imagePicker, animated: true, completion: nil)
+        
+            
+    }
+    
+
+
+
+
+    
+    
+    
+    
+    
+    
+
 
 }

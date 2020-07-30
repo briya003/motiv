@@ -16,7 +16,21 @@ class secondViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
+    @IBOutlet weak var images: UIImageView!
+    
+    
+    let arrays = [UIImage(named: "0"),UIImage(named: "1"), UIImage(named: "2"), UIImage(named: "3"), UIImage(named: "4"),UIImage(named: "5"),UIImage(named: "6"),UIImage(named: "7"),UIImage(named: "8"),UIImage(named: "9"),UIImage(named: "10"),UIImage(named: "11"),UIImage(named: "12"),UIImage(named: "13"),UIImage(named: "14")]
+    
+    @IBAction func randomButton(_ sender: UIButton) {let number = Int.random(in: 0 ... 14)
+        images.image = arrays[number]
+    }
+    
+    
+    
+    
+    
+    
+    
     /*
     // MARK: - Navigation
 
