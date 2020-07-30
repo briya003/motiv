@@ -14,6 +14,10 @@
 		F60523A224D32425008B3DA9 /* motiv3.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F60523A024D32425008B3DA9 /* motiv3.xcdatamodeld */; };
 		F60523A424D32429008B3DA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F60523A324D32429008B3DA9 /* Assets.xcassets */; };
 		F60523A724D32429008B3DA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F60523A524D32429008B3DA9 /* LaunchScreen.storyboard */; };
+		F60523AF24D324A3008B3DA9 /* secondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60523AE24D324A3008B3DA9 /* secondViewController.swift */; };
+		F60523B124D32597008B3DA9 /* thirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60523B024D32597008B3DA9 /* thirdViewController.swift */; };
+		F60523B324D326DA008B3DA9 /* fourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60523B224D326DA008B3DA9 /* fourthViewController.swift */; };
+		F60523B524D32852008B3DA9 /* fifthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60523B424D32852008B3DA9 /* fifthViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,10 @@
 		F60523A324D32429008B3DA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F60523A624D32429008B3DA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F60523A824D32429008B3DA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F60523AE24D324A3008B3DA9 /* secondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondViewController.swift; sourceTree = "<group>"; };
+		F60523B024D32597008B3DA9 /* thirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thirdViewController.swift; sourceTree = "<group>"; };
+		F60523B224D326DA008B3DA9 /* fourthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fourthViewController.swift; sourceTree = "<group>"; };
+		F60523B424D32852008B3DA9 /* fifthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fifthViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +74,10 @@
 				F60523A524D32429008B3DA9 /* LaunchScreen.storyboard */,
 				F60523A824D32429008B3DA9 /* Info.plist */,
 				F60523A024D32425008B3DA9 /* motiv3.xcdatamodeld */,
+				F60523AE24D324A3008B3DA9 /* secondViewController.swift */,
+				F60523B024D32597008B3DA9 /* thirdViewController.swift */,
+				F60523B224D326DA008B3DA9 /* fourthViewController.swift */,
+				F60523B424D32852008B3DA9 /* fifthViewController.swift */,
 			);
 			path = motiv3;
 			sourceTree = "<group>";
@@ -143,7 +155,11 @@
 			files = (
 				F605239C24D32425008B3DA9 /* ViewController.swift in Sources */,
 				F60523A224D32425008B3DA9 /* motiv3.xcdatamodeld in Sources */,
+				F60523B324D326DA008B3DA9 /* fourthViewController.swift in Sources */,
+				F60523B124D32597008B3DA9 /* thirdViewController.swift in Sources */,
+				F60523B524D32852008B3DA9 /* fifthViewController.swift in Sources */,
 				F605239824D32425008B3DA9 /* AppDelegate.swift in Sources */,
+				F60523AF24D324A3008B3DA9 /* secondViewController.swift in Sources */,
 				F605239A24D32425008B3DA9 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
