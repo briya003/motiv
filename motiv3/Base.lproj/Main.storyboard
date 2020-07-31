@@ -309,8 +309,9 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
+        <segue reference="SoP-ms-9ex"/>
         <segue reference="pS9-eA-GZ6"/>
-        <segue reference="QUg-Ja-WqP"/>
+        <segue reference="S6d-GY-QBw"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="What's your dream today_" width="1080" height="1920"/>
